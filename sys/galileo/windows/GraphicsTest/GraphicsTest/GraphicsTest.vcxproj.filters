@@ -27,11 +27,11 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\cppsrc\U8glib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\..\csrc\u8g.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\u8glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\cppsrc\U8glib.h">
+      <Filter>Header Files\u8glib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -41,68 +41,68 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\cppsrc\U8glib.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_circle.c">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\csrc\u8g_clip.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_api.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_common.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_null.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_delay.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_dev_st7565_lm6059.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_font.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_ll_api.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_page.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb8v1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb16v1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_state.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_sw_spi.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_scale.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_null.c">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_circle.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_delay.c">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_line.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_dev_st7565_lm6059.c">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_polygon.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\csrc\u8g_rect.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_font.c">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\fntsrc\u8g_font_6x10.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_line.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_ll_api.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_page.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb8v1.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_pb16v1.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_polygon.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_rect.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_scale.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_state.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\cppsrc\U8glib.cpp">
+      <Filter>Source Files\u8glib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
