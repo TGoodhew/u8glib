@@ -104,6 +104,9 @@
     <ClCompile Include="..\..\..\..\..\cppsrc\U8glib.cpp">
       <Filter>Source Files\u8glib</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_hw_spi.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

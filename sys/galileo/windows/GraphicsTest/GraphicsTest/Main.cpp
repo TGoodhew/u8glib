@@ -6,9 +6,16 @@
 
 #include "..\..\..\..\..\cppsrc\U8glib.h"
 
+// Software SPI (_2X writes two pages at a time)
 //  U8GLIB_LM6059(sck, mosi, cs, a0 [, reset]) 
-U8GLIB_LM6059 u8g(13, 11, 8, 10, 9);
+//
+//U8GLIB_LM6059 u8g(13, 11, 8, 10, 9);
 //U8GLIB_LM6059_2X u8g(13, 11, 8, 10, 9);
+
+// Hardware SPI
+//	U8GLIB_LM6059(cs, a0[, reset])
+//
+U8GLIB_LM6059 u8g(8, 10, 9);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -156,9 +163,6 @@ void setup(void) {
 	// flip screen, if required
 	//u8g.setRot180();
 
-
-	pinMode(13, OUTPUT);
-	digitalWrite(13, HIGH);
 }
 
 void loop(void) {
