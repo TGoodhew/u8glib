@@ -83,6 +83,12 @@
     <ClCompile Include="..\..\..\..\..\fntsrc\u8g_font_unifont.c">
       <Filter>Source Files\u8glib</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_common.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_sw_spi.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -745,9 +745,16 @@ defined(__18CXX) || defined(__PIC32MX)
 #define U8G_COM_ST7920_SW_SPI u8g_com_atmega_st7920_sw_spi_fn
 #endif
 #endif
+
 #ifndef U8G_COM_SW_SPI
+/* ==== SW SPI Intel Galileo ====*/
+#ifdef INTEL_GALILEO
+#define U8G_COM_SW_SPI u8g_com_arduino_sw_spi_fn
+#define U8G_COM_ST7920_SW_SPI u8g_com_arduino_st7920_spi_fn
+#else
 #define U8G_COM_SW_SPI u8g_com_null_fn
 #define U8G_COM_ST7920_SW_SPI u8g_com_null_fn
+#endif
 #endif
 
 /* ==== Parallel interface, Arduino ====*/
