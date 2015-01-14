@@ -1,10 +1,17 @@
 // Main.cpp : Defines the entry point for the console application.
 //
 
+// Include files
+//
+// This solution assumes that you have local clone of the u8glib repository.
+// You will need to add these directories to your Additional Include Directories property
+//
+// u8glib\cppsrc; 
+// u8glib\csrc; 
+//
 #include "stdafx.h"
 #include "arduino.h"
-
-#include "..\..\..\..\..\cppsrc\U8glib.h"
+#include "U8glib.h"
 
 // Software SPI (_2X writes two pages at a time)
 //  U8GLIB_LM6059(sck, mosi, cs, a0 [, reset]) 

@@ -55,6 +55,7 @@
       <AdditionalOptions>/d2nolock %(AdditionalOptions)</AdditionalOptions>
       <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
       <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>C:\Users\Tony\Source\Repos\u8glib\csrc;C:\Users\Tony\Source\Repos\u8glib\cppsrc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
