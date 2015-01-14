@@ -55,6 +55,7 @@
       <AdditionalOptions>/d2nolock %(AdditionalOptions)</AdditionalOptions>
       <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
       <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>C:\Users\Tony\Source\Repos\u8glib\cppsrc;C:\Users\Tony\Source\Repos\u8glib\csrc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -95,6 +96,7 @@
     <ClCompile Include="..\..\..\..\..\csrc\u8g_clip.c" />
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_api.c" />
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_common.c" />
+    <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_hw_spi.c" />
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_arduino_sw_spi.c" />
     <ClCompile Include="..\..\..\..\..\csrc\u8g_com_null.c" />
     <ClCompile Include="..\..\..\..\..\csrc\u8g_delay.c" />
