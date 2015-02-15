@@ -449,7 +449,7 @@ uint8_t u8g_com_arduino_hw_spi_fn(u8g_t *u8g, uint8_t msg, uint8_t arg_val, void
 
 	case U8G_COM_MSG_INIT:
 		u8g_com_arduino_assign_pin_output_high(u8g);
-		u8g_com_arduino_digital_write(u8g, U8G_PI_CS, HIGH); //BUG: I don't think this second write is needed
+		//u8g_com_arduino_digital_write(u8g, U8G_PI_CS, HIGH); //TODO: I don't think this second write is needed - Will remove after some more tests
 		break;
 
 	case U8G_COM_MSG_ADDRESS:                     /* define cmd (arg_val = 0) or data mode (arg_val = 1) */
