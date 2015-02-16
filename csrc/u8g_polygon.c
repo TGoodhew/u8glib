@@ -216,7 +216,7 @@ static void pg_hline(pg_struct *pg, u8g_t *u8g)
       x1 = 0;
     if ( x2 >= u8g_GetWidth(u8g) )
       x2 = u8g_GetWidth(u8g);
-    u8g_DrawHLine(u8g, x1, y, x2 - x1);
+	u8g_DrawHLine(u8g, (u8g_uint_t)x1, (u8g_uint_t)y, x2 - x1);
   }
   else
   {
@@ -228,7 +228,7 @@ static void pg_hline(pg_struct *pg, u8g_t *u8g)
       x1 = 0;
     if ( x1 >= u8g_GetWidth(u8g) )
       x1 = u8g_GetWidth(u8g);
-    u8g_DrawHLine(u8g, x2, y, x1 - x2);
+	u8g_DrawHLine(u8g, (u8g_uint_t)x2, (u8g_uint_t)y, x1 - x2);
   }
 }
 
